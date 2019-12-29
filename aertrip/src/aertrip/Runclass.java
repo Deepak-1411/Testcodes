@@ -34,7 +34,7 @@ import com.relevantcodes.extentreports.LogStatus;
  *
  */
 
-public class NewTest {
+public class Runclass {
 	ExtentTest test;
 	ExtentReports report;
 	ChromeOptions options;
@@ -51,7 +51,7 @@ public class NewTest {
 
 		try {
 			driver.findElement(PagefactoryLogin.uname).sendKeys("deepakpal1411@gmail.com");
-			driver.findElement(PagefactoryLogin.pass).sendKeys("Deepak@1411");
+			driver.findElement(PagefactoryLogin.pass).sendKeys("password");
 			driver.findElement(PagefactoryLogin.loginbutton).click();
 			test.log(LogStatus.PASS, "logged in to website");
 		} catch (Exception e) {
