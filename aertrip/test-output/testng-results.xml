@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="208191" started-at="2019-12-29T10:56:07Z" finished-at="2019-12-29T10:59:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="208191" started-at="2019-12-29T10:56:07Z" finished-at="2019-12-29T10:59:35Z">
+      <class name="aertrip.NewTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:aertrip.NewTest@18be83e4]" name="setUp" is-config="true" duration-ms="6033" started-at="2019-12-29T16:26:07Z" finished-at="2019-12-29T16:26:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:aertrip.NewTest@18be83e4]" name="beforeClass" is-config="true" duration-ms="297" started-at="2019-12-29T16:26:13Z" finished-at="2019-12-29T16:26:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:aertrip.NewTest@18be83e4]" name="beforeMethod" is-config="true" duration-ms="522" started-at="2019-12-29T16:26:13Z" finished-at="2019-12-29T16:26:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="login()[pri:1, instance:aertrip.NewTest@18be83e4]" name="login" duration-ms="11520" started-at="2019-12-29T16:26:14Z" finished-at="2019-12-29T16:26:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:aertrip.NewTest@18be83e4]" name="afterMethod" is-config="true" duration-ms="702" started-at="2019-12-29T16:26:25Z" finished-at="2019-12-29T16:26:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:aertrip.NewTest@18be83e4]" name="beforeMethod" is-config="true" duration-ms="579" started-at="2019-12-29T16:26:26Z" finished-at="2019-12-29T16:26:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="searchhotel()[pri:2, instance:aertrip.NewTest@18be83e4]" name="searchhotel" duration-ms="29500" started-at="2019-12-29T16:26:27Z" finished-at="2019-12-29T16:26:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchhotel -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:aertrip.NewTest@18be83e4]" name="afterMethod" is-config="true" duration-ms="1569" started-at="2019-12-29T16:26:56Z" finished-at="2019-12-29T16:26:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:aertrip.NewTest@18be83e4]" name="beforeMethod" is-config="true" duration-ms="1437" started-at="2019-12-29T16:26:58Z" finished-at="2019-12-29T16:26:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="roomselection()[pri:3, instance:aertrip.NewTest@18be83e4]" name="roomselection" duration-ms="21686" started-at="2019-12-29T16:26:59Z" finished-at="2019-12-29T16:27:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- roomselection -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:aertrip.NewTest@18be83e4]" name="afterMethod" is-config="true" duration-ms="577" started-at="2019-12-29T16:27:21Z" finished-at="2019-12-29T16:27:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:aertrip.NewTest@18be83e4]" name="beforeMethod" is-config="true" duration-ms="640" started-at="2019-12-29T16:27:21Z" finished-at="2019-12-29T16:27:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="selectSecoundlowestRoom()[pri:4, instance:aertrip.NewTest@18be83e4]" name="selectSecoundlowestRoom" duration-ms="23247" started-at="2019-12-29T16:27:22Z" finished-at="2019-12-29T16:27:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectSecoundlowestRoom -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:aertrip.NewTest@18be83e4]" name="afterMethod" is-config="true" duration-ms="854" started-at="2019-12-29T16:27:45Z" finished-at="2019-12-29T16:27:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:aertrip.NewTest@18be83e4]" name="beforeMethod" is-config="true" duration-ms="859" started-at="2019-12-29T16:27:46Z" finished-at="2019-12-29T16:27:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="booksecoundlowesthotel()[pri:5, instance:aertrip.NewTest@18be83e4]" name="booksecoundlowesthotel" duration-ms="105104" started-at="2019-12-29T16:27:47Z" finished-at="2019-12-29T16:29:32Z">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=79.0.3945.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'DEEPAK', ip: '192.168.42.246', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\DEEPAK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51004}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 75091aa641b898b23642cc81ff3140e1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=79.0.3945.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'DEEPAK', ip: '192.168.42.246', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\DEEPAK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51004}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 75091aa641b898b23642cc81ff3140e1
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at aertrip.NewTest.booksecoundlowesthotel(NewTest.java:153)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- booksecoundlowesthotel -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:aertrip.NewTest@18be83e4]" name="afterMethod" is-config="true" duration-ms="944" started-at="2019-12-29T16:29:32Z" finished-at="2019-12-29T16:29:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:aertrip.NewTest@18be83e4]" name="afterClass" is-config="true" duration-ms="2049" started-at="2019-12-29T16:29:33Z" finished-at="2019-12-29T16:29:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- aertrip.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
